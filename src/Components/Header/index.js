@@ -30,7 +30,7 @@ class header extends Component {
 
     return (
       <Header>
-        <StatusBar backgroundColor="#eee" barStyle="dark-content" />
+        <StatusBar backgroundColor="#fff" barStyle="dark-content" />
         <Left />
         <Title>{title}</Title>
         <Button onPress={this.signOut}>

@@ -4,6 +4,7 @@ import { StyleSheet } from 'react-native';
 export const Header = styled.View`
   height: 54px;
   flex-direction: row;
+  background-color: #fff;
   /* border: ${StyleSheet.hairlineWidth}px; */
   align-items: center;
   justify-content: space-between;
